@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.navBar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+.logo{
+    
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+
+
+a{ 
+    list-style: none;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.music{
+     
+        
+}
+.musicEve{
+    background-image: url(../assets/pexels-vishnu-r-nair-1105666.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.green{
+    
+    background-color:#1ab26b ;
+    width: 400px;
+    height: 600px;
+    
+}
+.explain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+
+h1{
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.isNow p{
+    color: white;
+    text-align: center;
+}
+h2{
+    align-items: center;
+    
+}
+
+.whatS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.wts{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #1ab26b;
+    
+}
+.icon{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+                                 
+}
+.explain h3{
+    text-decoration: underline;
+}
+.explain h3,
+.explain h4,
+.explain p{
+    color: white;
+    align-items: center;
+}
+h3{
+    color: #1ab26b;
+}
+.triptic{
+    display: flex;
+    height: 10%;
+    width: 80%;
+    justify-content: center; 
+
+}
+.icon img{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+   
+}
+#p .icon{
+    width: 2%;
+}
+#h3 .icon{
+    text-align: center;
+}
+.icon p{
+    width: 80%;
+    font-size: smaller;
+}
+.green{
+    display: flex;
+    background-color: #1ab26b;
+    width: 100%;
+      
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../assets/logo-2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-content: center;
+}
+
+
+#h4 .explain{
+    text-align: center;
+}
+
+ .screenKanye{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    width: 30%;
+   height: 300px;
+}
+.screenKanye img{
+    width: 250px;
+
+}

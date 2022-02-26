@@ -20,6 +20,7 @@
 .logo{
     
     display: flex;
+    width: 40%;
 
 }
 li{
@@ -136,8 +137,7 @@ h3{
 .green{
     display: flex;
     background-color: #1ab26b;
-    width: 100%;
-      
+    width: 100%;  
     justify-content: space-around;
     align-items: center;
     background-image: url(../assets/logo-2.PNG);
@@ -162,7 +162,7 @@ h3{
     align-items: center;
     align-content: space-around;
     width: 30%;
-   height: 300px;
+    height: 300px;
 }
 .screenKanye img{
     width: 250px;
